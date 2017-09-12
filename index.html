@@ -1,0 +1,229 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>draft</title>
+    <meta name="description" content="draft">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--<link rel="apple-touch-icon" href="apple-touch-icon.png">-->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="bulma/css/bulma.rtl.css">
+</head>
+
+<body dir="rtl">
+    <div class="container">
+        <nav class="navbar">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="http://tsbib.ir">
+                    <img src="data:image/png;base64,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" alt="TSBIB" width="28" height="28">
+                </a>
+            </div>
+            <span class="navbar-item">
+                کارگزار بیمه تأمین صنعت برتر کد ۳۰۳                        
+            </span>
+            <span class="navbar-item">
+                <span class="tag is-primary">
+                    BETA
+                </span>
+            </span>
+        </nav>
+    </div>
+
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column">
+                        <p class="title">
+                            همکاران اصلی
+                        </p>
+                        <p class="subtitle">
+                            جمله مثبت تأثیرگذار با محوریت
+                            <strong>بیمه</strong> و مفید
+                        </p>
+                    </div>
+                    <div class="column is-narrow">
+                        <div id="carboncontainer">
+                            <div id="carbon" class="box">
+                                <div id="carbonads">
+                                    <span>
+                                        <span class="carbon-wrap">
+                                            <a href="http://tsbib.ir" class="carbon-img" target="_blank" rel="noopener">
+                                                <img src="https://assets.servedby-buysellads.com/p/manage/asset/id/28536" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://www.graphicstock.com/join/browse?utm_campaign=AFFGS-BSACPA-affiliate-site1-joinbrowse&amp;utm_medium=affiliate&amp;utm_source=AFFGS-BSACPA-affiliate-site1-joinbrowse" class="carbon-text" target="_blank" rel="noopener">
+                                            </a>
+                                        </span>
+                                    <a href="http://tsbib.ir" class="carbon-poweredby" target="_blank">لوگوها</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column is-narrow">
+                        <div id="carboncontainer">
+                            <div id="carbon" class="box">
+                                <div id="carbonads">
+                                    <span>
+                                        <span class="carbon-wrap">
+                                            <a href="http://tsbib.ir" class="carbon-img" target="_blank" rel="noopener">
+                                                <img src="https://assets.servedby-buysellads.com/p/manage/asset/id/28536" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="https://www.graphicstock.com/join/browse?utm_campaign=AFFGS-BSACPA-affiliate-site1-joinbrowse&amp;utm_medium=affiliate&amp;utm_source=AFFGS-BSACPA-affiliate-site1-joinbrowse" class="carbon-text" target="_blank" rel="noopener">
+                                            </a>
+                                        </span>
+                                    <a href="http://tsbib.ir" class="carbon-poweredby" target="_blank">لوگوها</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-foot">
+            <div class="container">
+                <div class="columns">
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="http://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">John Smith</p>
+                                        <p class="subtitle is-6">@johnsmith</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="http://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">John Smith</p>
+                                        <p class="subtitle is-6">@johnsmith</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="http://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+                                <div class="media">
+                                    <div class="media-left">
+                                        <figure class="image is-48x48">
+                                            <img src="http://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
+                                        </figure>
+                                    </div>
+                                    <div class="media-content">
+                                        <p class="title is-4">John Smith</p>
+                                        <p class="subtitle is-6">@johnsmith</p>
+                                    </div>
+                                </div>
+
+                                <div class="content">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                                    <a href="#">#css</a> <a href="#">#responsive</a>
+                                    <br>
+                                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        سایر مشتریان
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    معرفی شرکت
+                </h1>
+                <h2 class="subtitle">
+                    تاریخچه و معرفی شرکت
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="section" id="app">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                </div>
+                <div class="column">
+                </div>
+                <div class="column">
+                </div>
+                <div class="column">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    تماس با ما
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="axios/axios.min.js"></script>
+    <script src="vue/vue.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
