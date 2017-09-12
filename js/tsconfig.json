@@ -1,0 +1,14 @@
+{
+    "include": [
+        "./**/*.ts"
+    ],
+    "compileOnSave": true,
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true
+    }
+}
